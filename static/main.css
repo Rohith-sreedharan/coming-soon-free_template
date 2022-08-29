@@ -1,0 +1,126 @@
+* {
+    font-family: 'montserrat', sans-serif;
+}
+/* 
+SITE  BY SPRINGREEN 
+(C) ALL RIGHTS RESERVED | 2022
+
+DMCA AND IRS PROTECTED
+*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    background: #f1f1f1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 1;
+    height: 100vh;
+    position: relative;
+}
+
+.countdown-col {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAdVBMVEUAAADh4eGpqam/v7/Hx8c4ODhhYWG1tbV2dnbc3NxRUVEWFhYsLCyfn58YGBgTExOtra3S0tJERERsbGzY2NiEhIQcHBxzc3NbW1uWlpYODg4mJiZJSUkwMDA+Pj67u7v////29vaMjIx+fn6amprt7e2IiIjrKWI3AAACi0lEQVR4nO3VgY6iMBCA4QIVKIhSQEVQWUV9/0e82oK6G+9yyep6yf1fsutQYZihpQoBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+W0X97gpe7dAt313Cd9yKX84/j87Gg+YazW+nzO4PRHqN57Pb6LJ5dJ+fFUY6cGtwnmm5cHWuYr/K61znrT2Mu95+Fute6tJdN8l1J5MxS3PW8uzCWEq/Hc7xdbBy4br0x2w/rPTWRb+5RGnXTQt9sKO5V9bK60PPd5XqyH6GH/5m7RU2ll3b74sxTXKKy9hGZ5W0eWDnq9F5WivXoqpWtcp+pqfP9PFapDcRYqFt7OdCZIH5k+67fOjQm4rGsyU3JzN/Or5dXI4JzTOaVHZV1Grr0hjKDK+rV3fzQHoKxzD2zL9wb2PfzN3RlHb80qGaCuG5FauzZehdV6mIq8it9ZNpNVW29UPQXBatnc/KrOGFenU7j1yfvVmvpp6VZ+NLh4/m8K7DUAVyfZdomiv7Dl+muK1s1l6akYO0m021eFeHUbAV2+0l2pmymii3o3/scHjfsjLcXtM0W/MqTmzC/DKhNpx4oZhJ9xoo0+F5WKXJYthWN2OQ9LPxq7vN9zkmUnWVm5WV9jtZXDs8/qZDtwJFpoJAlbc0ge5scUUQ+eN+e9BZMPySqrs5zPbJl8Dfb4bgY/rsDsW07MNhF9/E5ZB/tzNFm5vuhhvvXONtYppI3DnLOml9OT7xeR2X7ZgwHq4STRKX4yyZ+d4O/ezC1AWTMh1H5mPw3O6+o+yLRPrvruKVYump6PlL6p8yS99dAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7OL+r+HVYWTmF1AAAAAElFTkSuQmCC) no-repeat center;
+    background-size: cover;
+}
+
+.time {
+    color: #fff;
+    text-transform: uppercase;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.time span {
+    padding: 0 14px;
+    font-size: 10px;
+}
+
+.time span div {
+    font-size: 40px;
+}
+
+.newslatter {
+    width: 90%;
+}
+
+.newslatter h4 {
+    font-style: italic;
+    font-size: 12px;
+}
+
+.newslatter input,
+.newslatter button {
+    display: block;
+    margin: 12px auto;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    padding: 14px 20px;
+    border-radius: 30px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+.newslatter i {
+    padding: 5px;
+}
+
+.newslatter-button {
+    background: linear-gradient(125deg, #3498db, #34495e);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.newslatter-button:hover {
+    opacity: 0.7;
+}
+
+
+footer {
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer i {
+    color: red;
+}
+
+footer a {
+    color: #3c97bf;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+    .col {
+        flex: 100%;
+    }
+}
